@@ -1,6 +1,5 @@
 import { ProductType } from "../about/AboutProduct";
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import "./product.css"
 
 function Product({ title, price, description, imageUrl }: ProductType) {
